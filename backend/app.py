@@ -8,7 +8,6 @@ from ai import analyze_resume
 
 
 app=Flask(__name__)
-app.secret_key="secret123"
 
 Base.metadata.create_all(bind=engine)
 
